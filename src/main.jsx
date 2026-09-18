@@ -14,7 +14,7 @@ import './assets/styles/global.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/Mall-Management">
         <App />
       </BrowserRouter>
     </Provider>
